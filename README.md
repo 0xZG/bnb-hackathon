@@ -1,11 +1,19 @@
 # Crypto Rumble
 
+- Please check out our [demo](https://test.zypher.game/CryptoRumble/) (you'll need to connect your crypto wallet with opBNB testnet gas :wink:)
+
+- Contracts:
+  - CryptoRumble
+  - GameHub
+
+### Dataflow:
+
 ```mermaid
 sequenceDiagram
 
 actor P as Players
 participant VRF as VRF <br /> (Polyhedra)
-participant Contract as Smart Contract <br /> @opBNB
+participant Contract as Smart Contract <br /> (opBNB)
 participant ZK as ZK Verifier
 
 P ->> VRF: Request a new seed
