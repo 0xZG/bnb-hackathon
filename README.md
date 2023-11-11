@@ -1,10 +1,14 @@
-# Crypto Rumble
+# Crypto Rumble :raised_hands: BNB Hackathon - Istanbul
 
 - Please check out our [demo](https://test.zypher.game/CryptoRumble/) (you'll need to connect your crypto wallet with opBNB testnet gas :wink:)
 
 - Contracts:
   - CryptoRumble
   - GameHub
+
+- Git repositories:
+  - [Web front-end](https://github.com/0xZG/crypto-rumble-frontend)
+  - Smart Contracts
 
 ### Dataflow:
 
