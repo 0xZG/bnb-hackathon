@@ -11,10 +11,15 @@
 ```mermaid
 sequenceDiagram
 
+box Off-chain
 actor P as Players
 participant VRF as VRF <br /> (Polyhedra)
+end
+
+box rgba(239,185,11,0.4) On-chain
 participant Contract as Smart Contract <br /> (opBNB)
 participant ZK as ZK Verifier
+end
 
 P ->> VRF: Request a new seed
 VRF ->> P: seed + proof*1
